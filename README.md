@@ -66,3 +66,9 @@ corepack enable npm
 }
 ```
 
+## TODO
+
+- [x] chapter 0
+- [x] chapter 1
+- [x] chapter 2
+- [ ] [chapter 3](https://docs.astro.build/ja/tutorial/3-components/)
