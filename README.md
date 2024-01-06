@@ -65,6 +65,10 @@ corepack enable npm
   "packageManager": "npm@10.2.5"
 }
 ```
+### cloudflare
+
+- 下記サイトを用いてcloudflare pagesにデプロイ
+  - [参考記事リンク](https://zenn.dev/stripe/books/workshop-astro-cloudflare-pages/viewer/step2)
 
 ## TODO
 
