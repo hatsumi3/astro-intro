@@ -1,0 +1,11 @@
+node_modules/
+.astro/
+dist/
+public/
+.vscode/
+.github/
+package-lock.json
+tsconfig.json
+src/env.d.ts
+*.cjs
+*.mjs

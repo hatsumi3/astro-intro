@@ -1,13 +1,14 @@
 ---
-import "../styles/global.css";
+import Navigation from "@/components/Navigation.astro"
+import "@/styles/global.css"
 
-const pageTitle = "私について";
+const pageTitle = "私について"
 const identity = {
   firstName: "サラ",
   country: "カナダ",
   occupation: "技術ライター",
   hobbies: ["写真", "バードウォッチング", "野球"],
-};
+}
 
 const skills = [
   "HTML",
@@ -16,16 +17,16 @@ const skills = [
   "React",
   "Astro",
   "ドキュメントの執筆",
-];
+]
 
-const happy = true;
-const finished = false;
-const goal = 3;
+const happy = true
+const finished = false
+const goal = 3
 
 // CSS variable
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
+const skillColor = "navy"
+const fontWeight = "bold"
+const textCase = "uppercase"
 ---
 
 <html lang="ja">
@@ -49,10 +50,7 @@ const textCase = "uppercase";
   </head>
 
   <body>
-    <a href="/">ホーム</a>
-    <a href="/about/">概要</a>
-    <a href="/blog/">blog</a>
-
+    <Navigation />
     <h1>{pageTitle}</h1>
     <h2>... そして私の新しいAstroサイトについて！</h2>
 

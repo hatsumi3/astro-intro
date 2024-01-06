@@ -48,6 +48,17 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ## other memo
 
+### 環境構築
+
+参考URL
+
+- [全般](https://zenn.dev/siakas/scraps/97df23c5d2a711)
+  - prettier
+  - eslint
+- [import path](https://docs.astro.build/ja/guides/typescript/)
+- [integrations](https://astro.build/integrations/)
+  - 公式紹介があるthird party
+
 ### corepack
 
 利用者がグローバルに corepack をインストールしていて、かつプロジェクト側で package.json にパッケージマネージャと利用バージョンを指定しておけば、指定したパッケージマネージャを自動的に使わせたり、他のパッケージマネージャを使えなくしたりできる。
@@ -65,6 +76,7 @@ corepack enable npm
   "packageManager": "npm@10.2.5"
 }
 ```
+
 ### cloudflare
 
 - 下記サイトを用いてcloudflare pagesにデプロイ
@@ -75,4 +87,5 @@ corepack enable npm
 - [x] chapter 0
 - [x] chapter 1
 - [x] chapter 2
-- [ ] [chapter 3](https://docs.astro.build/ja/tutorial/3-components/)
+- [x] chapter 3
+- [ ] [chapter 4](https://docs.astro.build/ja/tutorial/4-layouts/)
