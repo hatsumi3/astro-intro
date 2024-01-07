@@ -25,5 +25,8 @@
    "typescript",
    "typescriptreact",
    "astro"
- ],
+],
+"[astro]": {
+  "editor.defaultFormatter": "astro-build.astro-vscode"
+},
 }
