@@ -88,4 +88,6 @@ corepack enable npm
 - [x] chapter 1
 - [x] chapter 2
 - [x] chapter 3
-- [ ] [chapter 4](https://docs.astro.build/ja/tutorial/4-layouts/)
+- [x] chapter 4
+- [x] chapter 5
+- [ ] chapter 6

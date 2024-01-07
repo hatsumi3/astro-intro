@@ -16,6 +16,7 @@
     "fix:prettier": "npm run lint:prettier -- --write"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.1",
     "astro": "^4.0.9"
   },
   "packageManager": "npm@10.2.5",
