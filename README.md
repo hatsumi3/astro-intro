@@ -48,7 +48,19 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ## other memo
 
-### 環境構築
+### astro 近況
+
+気になった点だけ
+
+- componenベースでのテスト機能の提供がない
+
+  - ゆえにstorybookが使えない
+  - container APIが2024年にくれば解決するかも？
+
+- 参考リンク
+  - [Astro ゆく年くる年](https://zenn.dev/morinokami/articles/astro-2023-2024)
+
+### astro 環境構築
 
 参考URL
 
@@ -59,7 +71,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [integrations](https://astro.build/integrations/)
   - 公式紹介があるthird party
 
-### corepack
+### npm corepack
 
 利用者がグローバルに corepack をインストールしていて、かつプロジェクト側で package.json にパッケージマネージャと利用バージョンを指定しておけば、指定したパッケージマネージャを自動的に使わせたり、他のパッケージマネージャを使えなくしたりできる。
 
@@ -81,6 +93,9 @@ corepack enable npm
 
 - 下記サイトを用いてcloudflare pagesにデプロイ
   - [参考記事リンク](https://zenn.dev/stripe/books/workshop-astro-cloudflare-pages/viewer/step2)
+- web analyticsもワンボタンで設定可能。便利。
+- github actionsを用いて自動デプロイ
+  - cloudflare pagesからも設定可能
 
 ## TODO
 
@@ -90,4 +105,4 @@ corepack enable npm
 - [x] chapter 3
 - [x] chapter 4
 - [x] chapter 5
-- [ ] chapter 6
+- [x] chapter 6
