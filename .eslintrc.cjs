@@ -21,4 +21,5 @@ module.exports = {
     },
   ],
   ignorePatterns: ["*.d.ts"],
+  parser: "@typescript-eslint/parser",
 };
